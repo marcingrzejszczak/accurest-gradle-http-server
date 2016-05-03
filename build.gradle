@@ -77,7 +77,7 @@ artifacts {
 publishing {
 	publications {
 		stubs(MavenPublication) {
-			artifactId "${project.name}-stubs"
+			artifactId "${project.name}"
 			artifact stubsJar
 		}
 	}
